@@ -138,6 +138,8 @@ img {
 .right-side-bar
 .trending {
     background-color: white;
+    border-radius: 12px;
+    padding: 12px;
     
 }
 
@@ -148,9 +150,9 @@ img {
 .article {
     background-color: #bccbde;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     gap: 15px;
-    width: 100%;
+    /* width: 100%; */
     height: auto; /* Ensures it only grows based on content */
     overflow: hidden; /* Prevents unwanted expansion */
   }
@@ -166,7 +168,7 @@ img {
     background-color: #FFFFFF;
     color: black;
     text-align: center;
-    height: 200px;
+    height: 163px;
     border-left: 6px solid #f0b429;
     border-radius: 12px;
     padding: 16px;
