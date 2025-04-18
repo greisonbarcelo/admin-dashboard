@@ -8,7 +8,7 @@ html {
   height: 100%;
 }
 .grid-container {
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 6fr;
@@ -48,4 +48,28 @@ html {
 .action-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #e2e8f0;
+}
+
+.main-content
+.projects-card {
+    display: grid;
+}
+
+.main-content
+.right-side-bar {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.right-side-bar
+.announcement,
+.right-side-bar
+.trending {
+    background-color: white;
 }
