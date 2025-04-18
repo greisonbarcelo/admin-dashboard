@@ -148,8 +148,9 @@ img {
 .article {
     background-color: #bccbde;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 15px;
+    width: 100%;
     height: auto; /* Ensures it only grows based on content */
     overflow: hidden; /* Prevents unwanted expansion */
   }
