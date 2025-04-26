@@ -68,17 +68,19 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    justify-self: end;
+    /* justify-self: end; */
 }
 .search-bar {
     background-color: #e2e8f0;
     border-radius: 25px;
     border: 0px;
-    width: 500px;
+    width: 90%;
     height: 20px;
     padding: 12px;
 }
-
+.search-icon {
+    padding-left: 1px;
+}
 .header 
 .user-control {
     display: grid;
@@ -126,7 +128,7 @@ img {
 .main-content
 .projects-card {
     display: grid;
-    padding: 12px;
+    padding: 0 12px;
     /* grid-template-columns: 1fr; */
     grid-template-rows: 50px min-content;
 }
